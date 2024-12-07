@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+body{
+    padding: 40px 100px;
+    background: linear-gradient(90deg, rgba(24,11,47,1) 0%, rgba(107,41,217,1) 54%, rgba(8,3,17,1) 100%);
+
+}
+
+main{
+    height: 100vh;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+   list-style: none;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+.contact-us-btn{
+    border: 1px solid rgba(107,41,217,1);
+    border-radius: 18px;
+    padding: 10px 38px;
+    align-self: center;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95%;
+    background: url("../images/hero-section-woman-image.png") no-repeat center;
+    background-size: contain;
+
+}
+.explore-container{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+h1{
+    font-size: 5rem;
+    max-width: 30rem;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+.get-started-btn{
+    border: 1px solid ;
+    color: black;
+    background-color: #e9e9eb;
+    border-radius: 18px;
+    padding: 10px 28px;
+    max-width: 140px;
+}
+
+.transform-container{
+    display: flex;
+}
+.transform-text{
+max-width: 200px;
+position: absolute;
+bottom: 20%;
+left: 10%;
+}
+
+.uncompleted-circle{
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Light color for the full circle */
+    border-top: 5px solid  rgba(8,3,17,1); 
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-content{
+    position: absolute;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 150px;
+}
+.user-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.user-card{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+
+    position: relative;
+
+}
+
+.user-images{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user-avatar{
+    width: 50px;
+    height: 50px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.user-card h2{
+    font-size: 2rem;
+    color: #AE89FF;
+    margin-bottom: 10px;
+}
+
+.user-card p{
+    font-size: 1rem;
+    color:  rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+
+}
+
+.arrow-icon{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
